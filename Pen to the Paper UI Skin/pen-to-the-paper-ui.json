@@ -1,0 +1,120 @@
+{
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	shadow: {
+		r: 0
+		g: 0
+		b: 0
+		a: 0.7490196
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.utils.TiledDrawable: {
+	line-tiled: {
+		region: line
+		color: white
+		minWidth: 426
+		minHeight: 18
+	}
+}
+com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator: {
+	font: {
+		font:ArchitectsDaughter-Regular.ttf
+		size: 12
+		mono: false
+		color: black
+		gamma: 1
+		renderCount: 2
+		borderWidth: 0
+		borderColor: black
+		borderStraight: false
+		borderGamma: 1.7999999523162842
+		shadowOffsetX: 0
+		shadowOffsetY: 0
+		shadowColor: shadow
+		spaceX: 1
+		spaceY: 1
+		kerning: true
+		flip: false
+		genMipMaps: false
+		incremental: false
+		hinting: AutoSlight
+	}
+	title: {
+		font:ArchitectsDaughter-Regular.ttf
+		size: 16
+		mono: false
+		color: black
+		gamma: 1
+		renderCount: 2
+		borderWidth: 0
+		borderColor: black
+		borderStraight: false
+		borderGamma: 1.7999999523162842
+		shadowOffsetX: 0
+		shadowOffsetY: 0
+		shadowColor: shadow
+		spaceX: 1
+		spaceY: 1
+		kerning: true
+		flip: false
+		genMipMaps: false
+		incremental: false
+		hinting: AutoSlight
+	}
+	signature: {
+		font:Engagement-Regular.ttf
+		size: 30
+		mono: false
+		color: red
+		gamma: 1
+		renderCount: 2
+		borderWidth: 0
+		borderColor: black
+		borderStraight: false
+		borderGamma: 1.7999999523162842
+		shadowOffsetX: 0
+		shadowOffsetY: 0
+		shadowColor: shadow
+		spaceX: 1
+		spaceY: 0
+		kerning: true
+		flip: false
+		genMipMaps: false
+		incremental: false
+		hinting: AutoSlight
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	title: {
+		font: title
+	}
+	signature: {
+		font: signature
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}

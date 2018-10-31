@@ -1,0 +1,34 @@
+
+pen-to-the-paper-ui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+footer
+  rotate: false
+  xy: 1, 327
+  size: 426, 23
+  orig: 426, 23
+  offset: 0, 0
+  index: -1
+grade
+  rotate: false
+  xy: 1, 234
+  size: 101, 91
+  orig: 101, 91
+  offset: 0, 0
+  index: -1
+header
+  rotate: false
+  xy: 1, 372
+  size: 426, 55
+  orig: 426, 55
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 1, 352
+  size: 426, 18
+  orig: 426, 18
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,227 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	medium: {
+		file: font-medium-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	textfield-selection: {
+		r: 0
+		g: 0.8288336
+		b: 1
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	black: {
+		name: white
+		color: black
+	}
+	textfield-selection: {
+		name: white
+		color: textfield-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+	close: {
+		up: button-close
+		down: button-close-pressed
+	}
+	minimize: {
+		up: button-minimize
+		down: button-minimize-pressed
+	}
+	restore: {
+		up: button-restore
+		down: button-restore-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checkbox-checked
+		checkboxOff: checkbox
+		font: font
+		fontColor: black
+	}
+	radio: {
+		checkboxOn: radio-checked
+		checkboxOff: radio
+		font: font
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: font
+		fontColor: black
+		downFontColor: white
+		up: button
+		down: button-pressed
+	}
+	checkbox: {
+		imageUp: checkbox
+		imageDown: checkbox-checked-pressed
+		imageChecked: checkbox-checked
+		font: font
+		fontColor: black
+	}
+	radio: {
+		imageUp: radio
+		imageDown: radio-checked-pressed
+		imageChecked: radio-checked
+		font: font
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: black
+	}
+	medium: {
+		font: medium
+		fontColor: black
+	}
+	title: {
+		font: title
+		fontColor: black
+	}
+	title-color: {
+		font: title
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: black
+		selection: selection
+		background: list
+	}
+	plain: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: black
+		selection: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-horizontal
+		knobBefore: progress-bar-knob-horizontal
+	}
+	default-vertical: {
+		background: progress-bar-vertical
+		knobBefore: progress-bar-knob-vertical
+	}
+	startup: {
+		background: progress-bar-startup
+		knobBefore: progress-bar-startup-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScroll: scroll-bg-horizontal
+		hScrollKnob: scroll-horizontal
+		vScroll: scroll-bg-vertical
+		vScrollKnob: scroll-vertical
+	}
+	white-bg: {
+		background: white-rect
+		hScroll: scroll-bg-horizontal
+		hScrollKnob: scroll-horizontal
+		vScroll: scroll-bg-vertical
+		vScrollKnob: scroll-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: black
+		background: select-box
+		scrollStyle: default
+		listStyle: default
+		backgroundOpen: select-box-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: slider-horizontal
+		knob: slider-knob-horizontal
+	}
+	default-vertical: {
+		background: slider-vertical
+		knob: slider-knob-vertical
+	}
+	volume-horizontal: {
+		background: slider-2-horizontal
+		knob: slider-2-knob-horizontal
+	}
+	volume-vertical: {
+		background: slider-2-vertical
+		knob: slider-2-knob-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: black
+		downFontColor: white
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: black
+		background: textfield
+		cursor: black
+		selection: textfield-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+		titleFontColor: black
+	}
+	startup: {
+		background: window-startup
+		titleFont: font
+	}
+}
+}

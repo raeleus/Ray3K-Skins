@@ -1,0 +1,333 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	button: {
+		file: font-button-export.fnt
+	}
+	font: {
+		file: font-export.fnt
+	}
+	small: {
+		file: font-small-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	background-left: {
+		r: 0.0627451
+		g: 0.050980393
+		b: 0.24705882
+		a: 1
+	}
+	background-right: {
+		r: 0.11372549
+		g: 0.105882354
+		b: 0.27058825
+		a: 1
+	}
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	city-background-bottom: {
+		r: 0
+		g: 0.29411766
+		b: 0.45882353
+		a: 1
+	}
+	city-background-top: {
+		r: 0.015686275
+		g: 0
+		b: 0.050980393
+		a: 1
+	}
+	cyan: {
+		r: 0
+		g: 1
+		b: 1
+		a: 1
+	}
+	gray: {
+		r: 0.7019608
+		g: 0.7019608
+		b: 0.7019608
+		a: 1
+	}
+	header-bottom: {
+		r: 0.023529412
+		g: 0.023529412
+		b: 0.10980392
+		a: 1
+	}
+	header-top: {
+		r: 0.04761064
+		g: 0.050301656
+		b: 0.28980392
+		a: 1
+	}
+	list-bg: {
+		r: 0.023529412
+		g: 0.023529412
+		b: 0.10980392
+		a: 1
+	}
+	list-selection: {
+		r: 0.18917648
+		g: 0.19073464
+		b: 0.32941177
+		a: 1
+	}
+	progress-bar-bg: {
+		r: 0.09411765
+		g: 0.14117648
+		b: 0.31764707
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	progress-bar-bg: {
+		name: progress-bar
+		color: progress-bar-bg
+	}
+	black: {
+		name: white
+		color: black
+	}
+	list-bg: {
+		name: white
+		color: list-bg
+	}
+	list-selection: {
+		name: white
+		color: list-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.utils.TiledDrawable: {
+	progress-bar-red-h: {
+		region: progress-bar
+		color: red
+		minWidth: 0
+		minHeight: 3
+	}
+	progress-bar-v: {
+		region: progress-bar
+		color: red
+		minWidth: 3
+		minHeight: 0
+	}
+	progress-bar-cyan: {
+		region: progress-bar
+		color: cyan
+		minWidth: 0
+		minHeight: 3
+	}
+}
+com.ray3k.niteride.GradientDrawable: {
+	default: {
+		leftWidth: 0
+		rightWidth: 0
+		topHeight: 0
+		bottomHeight: 0
+	}
+	background: {
+		color1: background-left
+		color2: background-left
+		color3: background-right
+		color4: background-right
+		region: white
+		leftWidth: 0
+		rightWidth: 0
+		topHeight: 0
+		bottomHeight: 0
+	}
+	city-background: {
+		color1: city-background-bottom
+		color2: city-background-top
+		color3: city-background-top
+		color4: city-background-bottom
+		region: white
+		leftWidth: 0
+		rightWidth: 0
+		topHeight: 0
+		bottomHeight: 0
+	}
+	headerx: {
+		color1: header-bottom
+		color2: header-top
+		color3: header-top
+		color4: header-bottom
+		region: white
+		leftWidth: 40
+		rightWidth: 0
+		topHeight: 10
+		bottomHeight: 10
+	}
+}
+com.ray3k.niteride.AnimationDrawable: {
+	default: {
+		frameDuration: 0
+	}
+	run: {
+		regionName: stick-man-run
+		skin: default
+		frameDuration: 0.02
+	}
+	box: {
+		regionName: stick-man-box
+		skin: default
+		frameDuration: 0.02
+	}
+}
+com.ray3k.niteride.ScrollingTiledDrawable: {
+	default: {
+		offsetX: 0
+		offsetY: 0
+	}
+	city-scrolling: {
+		color: white
+		offsetX: 0
+		offsetY: 0
+		region: city
+	}
+	rain-scrolling: {
+		color: white
+		offsetX: 0
+		offsetY: 0
+		region: rain
+	}
+}
+com.ray3k.niteride.RadialDrawable: {
+	spedometer-radial: {
+		textureRegion: spedometer-filled
+	}
+}
+com.ray3k.niteride.RadialProgressBar$RadialProgressBarStyle: {
+	default: {
+		background: spedometer-empty
+		knob: spedometer-radial
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: button
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+	run: {
+		imageUp: run
+		font: button
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+	box: {
+		imageUp: box
+		font: button
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	small: {
+		font: small
+		fontColor: gray
+	}
+	title: {
+		font: title
+	}
+	button: {
+		font: button
+	}
+	header: {
+		font: font
+		background: headerx
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: small
+		fontColorSelected: white
+		fontColorUnselected: white
+		selection: list-selection
+		background: list-bg
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-bg
+		knobBefore: progress-bar-red-h
+	}
+	default-vertical: {
+		background: progress-bar-bg
+		knobBefore: progress-bar-v
+	}
+	cyan: {
+		background: progress-bar-bg
+		knobBefore: progress-bar-cyan
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: background
+		vScrollKnob: scroll-bar-minimized
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: button
+		fontColor: white
+		background: select-box
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: select-box-over
+		backgroundOpen: select-box-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: button
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
